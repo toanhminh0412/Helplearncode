@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helplearncode</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- BootstrapCSS -->
+    <link rel="stylesheet" href="./3rd-party/bootstrap/bootstrap.min.css">
+    <!-- BootstrapJS -->
+    <script src="./3rd-party/bootstrap/bootstrap.min.js"></script>
+    <!-- Utilities -->
+    <link rel="stylesheet" href="./css/utilities.css">
+</head>
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg bg-dark position-fixed top-0 left-0 w-100" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-semibold" href="#">Helplearncode</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav gap-1 w-fit">
+              <li class="nav-item">
+                <a class="nav-link" href="#how-it-works">How it works</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about-me">About me</a>
+              </li>
+              <li class="nav-item">
+                <!-- <a class="nav-link" href="#projects">Projects</a> -->
+              </li>
+              <li class="nav-item">
+                <!-- <a class="nav-link" href="#">Contact us</a> -->
+              </li>
+            </ul>
+            <a href="#" class="btn btn-primary mt-6 w-fit ms-auto" target="_blank">Subscribe now</a>
+          </div>
+        </div>
+    </nav>
+
+    <main class="pt-5">
+        <!-- Header -->
+        <header id="header" class="container-fluid text-light text-center d-flex flex-column justify-content-center">
+            <h1 class="display-6 fw-bold">Answer your coding questions</h1>
+            <p class="lead mx-auto">We answer your own questions that are relevant specifically to your coding journey. Save time and learn with us!</p>
+            <div class="d-flex flex-row gap-2 justify-content-center">
+              <a href="#" class="btn btn-primary mt-6 w-fit" target="_blank">Subscribe now</a>
+              <a href="https://www.facebook.com/profile.php?id=61555604066973" class="btn btn-secondary mt-6 w-fit" target="_blank">Visit our Facebook</a>
+            </div>
+        </header>
+
+        <!-- How it works -->
+        <section id="how-it-works" class="container-fluid text-center">
+            <h2 class="fw-bold">How it works</h2>
+            <p class="lead">Simply message us on <a href="https://www.facebook.com/profile.php?id=61555604066973" target="_blank">Facebook</a> or <a href="mailto:toanhminh0412@gmail.com">email</a> us to ask your question!</p>
+            <div class="steps col text-start mx-auto">
+                <div class="card my-2">
+                    <div class="card-body">
+                        <h5 class="card-title">1. Let me know what I can help you with.</h5>
+                        This might include:
+                        <ul>
+                            <li>Fix code bugs</li>
+                            <li>Ask concept question (e.g. What is an anchor tag?)</li>
+                            <li>Get code suggestion (I can help you write some code)</li>
+                            <li>Help you do coding assignments</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card my-2">
+                    <div class="card-body">
+                        <h5 class="card-title">2. 7 days free trail (no card needed) then 10 CAD/month</h5>
+                        You can ask as many questions as you want during the 7 days. If you are happy with the service, you can subscribe to continue using it.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About me -->
+        <section id="about-me" class="container-fluid">
+          <h2 class="fw-bold">About me</h2>
+          <p class="lead mt-4">I am a software developer with 4 years of experience. I have worked on a wide range of projects, from building websites for small businesses to developing complex full-stack web applications. My strongest technologies include HTML, CSS, JavaScript, jQuery, Python, NextJs, ReactJs, SQL and Firebase. You can check out my full <a href="https://eport.site/archie" target="blank">portfolio</a> here. Noted that the website my portfolio is hosted on (<a href="https://eport.site">Eport</a>) is <strong>built by me</strong>.</p>
+          <a href="https://eport.site/archie" class="btn btn-primary mt-2 w-fit" target="_blank">Visit my website</a>
+        </section>
+
+        <!-- Projects -->
+        <!-- <section id="projects" class="container-fluid">
+            <h2 class="fw-bold">Projects</h2>
+            <p class="lead">Have a look at our past projects! Our customers have been very happy with us</p>
+            <div class="project-showcase d-flex flex-row flex-wrap">
+                <div class="project-card card">
+                    <img src="./img/eport.png" class="card-img-top" alt="eport.site">
+                    <div class="card-body">
+                      <h5 class="card-title">Eport.site</h5>
+                      <p class="card-text">A free, user-friendly website builder for freelancers and job seekers.</p>
+                      <a href="https://eport.site" target="_blank" class="btn btn-primary">Visit site</a>
+                    </div>
+                </div>
+
+                <div class="project-card card">
+                    <img src="./img/btg.png" class="card-img-top" alt="btgimmigrationconsulting.ca">
+                    <div class="card-body">
+                      <h5 class="card-title">BTGImmigrationConsulting</h5>
+                      <p class="card-text">Website for a business that provides immgration consulting services to Canada</p>
+                      <a href="https://btgimmigrationconsulting.ca" target="_blank" class="btn btn-primary">Visit site</a>
+                    </div>
+                </div>
+
+                <div class="project-card card">
+                    <img src="./img/forexcopytrade.png" class="card-img-top" alt="forexcopytrade.ca">
+                    <div class="card-body">
+                      <h5 class="card-title">ForexCopyTrade</h5>
+                      <p class="card-text">Website for a business that provides Forex trade copier service, mirroring trades that professionals make</p>
+                      <a href="https://forexcopytrade.ca" target="_blank" class="btn btn-primary">Visit site</a>
+                    </div>
+                </div>
+
+                <div class="project-card card">
+                    <img src="./img/edgewindowcleaning.png" class="card-img-top" alt="edgewindowcleaning.ca">
+                    <div class="card-body">
+                      <h5 class="card-title">EdgeWindowCleaning</h5>
+                      <p class="card-text">Website for a business that provides window, gutter cleaning services.</p>
+                      <a href="https://edgewindowcleaning.ca" target="_blank" class="btn btn-primary">Visit site</a>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- What can we do for you -->
+        <!-- <section id="what-can-we-do-for-you" class="container-fluid">
+            <h2 class="fw-bold">What can we do for you?</h2>
+            <p class="lead">Any software at all that help you improve your business operations. Regardless of the industry you are in, the goal you are working towards, the services you are providing, we <strong>HAVE A SOLUTION</strong> for you, customized to your unique use case. To give a few examples, you can request us to build:</p>
+            <ul>
+                <li>A food order management system</li>
+                <li>An ecommerce website</li>
+                <li>A data visualization tool</li>
+                <li>An AI chatbot</li>
+                <li><strong>Anything that can be done on the web</strong></li>
+            </ul>
+        </section> -->
+
+        <!-- Contact us -->
+        <!-- <section id="what-can-we-do-for-you" class="container-fluid">
+            <h2 class="fw-bold">Contact us</h2>
+            <p class="lead">Send us a message and we'll get back to you as soon as possible!</p>
+        </section> -->
+    </main>
+</body>
+</html>
