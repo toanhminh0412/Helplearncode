@@ -9,12 +9,14 @@
     <link rel="stylesheet" href="./3rd-party/bootstrap/bootstrap.min.css">
     <!-- BootstrapJS -->
     <script src="./3rd-party/bootstrap/bootstrap.min.js"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Utilities -->
     <link rel="stylesheet" href="./css/utilities.css">
 </head>
 <body>
     <!-- Navigation bar -->
-    <nav class="navbar navbar-expand-lg bg-dark position-fixed top-0 left-0 w-100" data-bs-theme="dark">
+    <nav style="z-index: 5;" class="navbar navbar-expand-lg bg-dark position-fixed top-0 left-0 w-100" data-bs-theme="dark">
         <div class="container-fluid">
           <a class="navbar-brand fw-semibold" href="#">Helplearncode</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,7 +42,7 @@
         </div>
     </nav>
 
-    <main class="pt-5">
+    <main class="py-5">
         <!-- Header -->
         <header id="header" class="container-fluid text-light text-center d-flex flex-column justify-content-center">
             <h1 class="display-6 fw-bold">Answer your coding questions</h1>
@@ -54,7 +56,7 @@
         <!-- How it works -->
         <section id="how-it-works" class="container-fluid text-center">
             <h2 class="fw-bold">How it works</h2>
-            <p class="lead">Simply message us on <a href="https://www.facebook.com/profile.php?id=61555604066973" target="_blank">Facebook</a> or <a href="mailto:toanhminh0412@gmail.com">email</a> us to ask your question!</p>
+            <p class="lead">Simply message us on <a href="https://www.facebook.com/profile.php?id=61555604066973" target="_blank">Facebook</a> or email us at <strong>helplearncode@gmail.com</strong> to ask your question!</p>
             <div class="steps col text-start mx-auto">
                 <div class="card my-2">
                     <div class="card-body">
@@ -80,8 +82,22 @@
         <!-- About me -->
         <section id="about-me" class="container-fluid">
           <h2 class="fw-bold">About me</h2>
-          <p class="lead mt-4">I am a software developer with 4 years of experience. I have worked on a wide range of projects, from building websites for small businesses to developing complex full-stack web applications. My strongest technologies include HTML, CSS, JavaScript, jQuery, Python, NextJs, ReactJs, SQL and Firebase. You can check out my full <a href="https://eport.site/archie" target="blank">portfolio</a> here. Noted that the website my portfolio is hosted on (<a href="https://eport.site">Eport</a>) is <strong>built by me</strong>.</p>
+          <p class="lead mt-4">I am a software developer with 4 years of experience. I have worked on a wide range of projects, from building websites for small businesses to developing complex full-stack web applications. My strongest technologies include HTML, CSS, JavaScript, jQuery, Python, NextJs, ReactJs, SQL and Firebase. You can check out my full <a href="https://eport.site/archie" target="blank">portfolio</a> here. Note that the website my portfolio is hosted on (<a href="https://eport.site">Eport</a>) is <strong>built by me</strong>.</p>
           <a href="https://eport.site/archie" class="btn btn-primary mt-2 w-fit" target="_blank">Visit my website</a>
+        </section>
+
+        <!-- Social medias -->
+        <section id="about-me" class="container-fluid">
+          <h2 class="fw-bold">Social medias</h2>
+          <p class="lead">Visit our social medias. Note that we only answer questions over <strong>Facebook</strong> and <strong>Email</strong>!</p>
+          <div class="d-flex flex-row gap-3">
+            <i class="fa-solid fa-envelope fs-1 text-danger"></i>
+            <strong class="my-auto h-100 fs-4">helplearncode@gmail.com</strong>
+          </div>
+          <div class="mt-4 d-flex flex-row gap-3">
+            <a href="https://www.facebook.com/profile.php?id=61555604066973" target="_blank"><i class="fa-brands fa-facebook fs-1 text-primary"></i></a>
+            <a href="https://www.tiktok.com/@helplearncode" target="_blank"><i class="fa-brands fa-tiktok fs-1 text-dark"></i></a>
+          </div>
         </section>
 
         <!-- Projects -->
